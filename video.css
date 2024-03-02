@@ -1,0 +1,71 @@
+.thumbnail {
+  width: 100%;
+}
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.profile1 {
+  width: 36px;
+  border-radius: 50px;
+}
+.divtitle1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.title1 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px
+}
+.creator1 {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.views1 {
+  margin-top: 5px;
+  color: gray;
+  font-size: 12px;
+}
+.masterdiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 16px;
+}
+.div {
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .masterdiv {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .masterdiv {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .masterdiv {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+}
